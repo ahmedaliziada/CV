@@ -40,7 +40,7 @@ def vintage_filter(img,level):
     return img_cpoy
 
 ## GUI-------
-st.title('Fliters APP')
+st.title('Fliters APP apply various filters to your images')
 st.write('Upload an image and apply various filters to it.')   
 
 uploaded_image = st.file_uploader("upload an image", type=["jpg", "jpeg", "png"])
